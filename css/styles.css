@@ -1,10 +1,11 @@
 :root {
-  --15px: 0.938rem;
+  --wd-card: 18.75rem;
   --clr-body-bg: #d5e1ef;
   --clr-card-bg: #ffffff;
   --clr-title: #1f3251;
   --clr-text: hsl(216, 15%, 48%);
   --border-rd: 13px;
+  --fs-base: 0.938rem;
   --ff-base: "Outfit", sans-serif;
   --fw-700: 700;
 }
@@ -12,7 +13,7 @@
 body {
   font-family: var(--ff-base);
   background-color: var(--clr-body-bg);
-  font-size: var(--15px);
+  font-size: var(--fs-base);
 
   display: grid;
   place-content: center;
@@ -22,8 +23,8 @@ body {
 .card {
   --content-padding: 0.8rem;
   padding: var(--content-padding);
-  max-width: 250px;
-  margin-bottom: 40px;
+  max-width: var(--wd-card);
+  margin-block-end: 40px;
   text-align: center;
   background-color: var(--clr-card-bg);
 }
@@ -42,7 +43,6 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
   text-align: center;
 }
 .attribution a {
