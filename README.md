@@ -40,5 +40,5 @@ I want to improve my HTML and CSS skills by following best practices. That’s w
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/S4ZCO)
-- Twitter - [@yourusername](https://x.com/s4zco_Dev)
+- Frontend Mentor - [@S4ZCO](https://www.frontendmentor.io/profile/S4ZCO)
+- Twitter - [@s4zco_Dev](https://x.com/s4zco_Dev)
