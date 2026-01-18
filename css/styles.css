@@ -1,3 +1,46 @@
+:root {
+  --15px: 0.938rem;
+  --clr-body-bg: #d5e1ef;
+  --clr-card-bg: #ffffff;
+  --clr-title: #1f3251;
+  --clr-text: hsl(216, 15%, 48%);
+  --border-rd: 13px;
+  --ff-base: "Outfit", sans-serif;
+  --fw-700: 700;
+}
+
+body {
+  font-family: var(--ff-base);
+  background-color: var(--clr-body-bg);
+  font-size: var(--15px);
+
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+
+.card {
+  --content-padding: 0.8rem;
+  padding: var(--content-padding);
+  max-width: 250px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: var(--clr-card-bg);
+}
+
+.bd-radius {
+  border-radius: var(--border-rd);
+}
+
+.card__title {
+  color: var(--clr-title);
+  font-weight: var(--fw-700);
+}
+
+.card__text {
+  color: var(--clr-text);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
